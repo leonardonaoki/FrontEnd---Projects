@@ -1,0 +1,149 @@
+:root{
+  --background-default:#F5F4F0;
+  --border-primary:#D9D9D9;
+  
+  --text-primary:#1B1B1B;
+  --text-secondary:#333333;
+  --text-tertiary:#696969;
+  --text-headline:#E1624F;
+  
+  --accent-blue:#0C51A7;
+  --accent-orange:#E95E10;
+  --accent-pink:#E5245E;
+  --accent-purple:#591B98;
+
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--background-default);
+  margin:0;
+  padding:0;
+}
+
+.subtitle, .headline, p{
+  font-size: 16px;
+}
+
+#container{  
+  margin: 88px 80px 137px;
+  width: 1120px;
+}
+
+.headline{
+  color:var(--text-headline);
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+h1{
+  font-size: 36px;
+  font-weight: bold;
+}
+
+img{
+  width: 100%;
+  border-radius: 28px;  
+}
+
+#imgDescInicial{
+  margin-top:40px;
+}
+
+#imgDescInicial > img{    
+  height: 660px;  
+}
+
+#imgDescInicial > div{  
+  color:var(--text-secondary);
+  height: 37px;
+  font-style:italic;
+  margin-top: 24px;
+  text-align: center;  
+}
+
+#contentList{
+  margin-top: 40px;
+  border-top: solid var(--border-primary);  
+  width: 1120px;
+}
+
+#tituloConteudos{
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+h2{
+  font-size: 32px;
+  font-weight: bold;  
+}
+h1 , h2, h3{
+  color:var(--text-primary);
+  margin:0;
+}
+
+p, footer{
+  color: var(--text-secondary);
+}
+
+#contentList p{  	
+    margin-top: 4px;
+}
+.cardTravel > img{
+  height: 350px;
+  object-fit: cover;
+}
+.cardTravel > p + p{
+  font-weight: bold;
+  margin-bottom:0px
+}
+
+.cardTravel > ul{
+  margin: 0;
+  padding-left:30px
+}
+
+ol li::marker{
+  font-weight: bold;
+  font-size: 28px;
+}
+
+h3{
+  font-size: 28px;
+}
+.historia{
+  color: var(--accent-blue);
+}
+.casais{
+  color:var(--accent-purple)
+}
+.familias{
+  color: var(--accent-pink);
+}
+.orcamento{
+  color:var(--accent-orange)
+}
+.historia, .casais, .familias, .orcamento{
+  font-weight: bold;
+}
+
+#divisor{
+  margin: 40px auto;    
+  border-top: solid var(--border-primary);   
+}
+
+#container p:last-child{
+  text-align: center;
+}
+
+footer{
+  margin-top: 65px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom:48px;
+  text-align: center;  
+  width: 1120px;
+}
+
+footer > img{
+  width: 16px;
+  height: 16px;
+}
